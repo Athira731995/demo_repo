@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1px" width="100%">
+      <thead>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Duration</th>
+      </thead>
+      <tr>
+        <td>Ron</td>
+        <td>DS</td>
+        <td>5months</td>
+      </tr>
+      <tr>
+        <td>Ron</td>
+        <td>DS</td>
+        <td>5months</td>
+      </tr>
+      <tr>
+        <td>Ron</td>
+        <td>DS</td>
+        <td>5months</td>
+      </tr>
+      <tr>
+        <td>Ron</td>
+        <td>DS</td>
+        <td>5months</td>
+      </tr>
+      <tr>
+        <td>Ron</td>
+        <td>DS</td>
+        <td>5months</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <form action="example.htm" method="POST">
+      <fieldset>
+        <legend>This is a Student Registraion Form</legend>
+        <div>
+          <label for="">FirstName</label>
+        </div>
+        <div>
+          <input
+            type="text"
+            name="fname"
+            required
+            placeholder="Enter Your first name here"
+            minlength="3"
+            maxlength="5"
+          />
+        </div>
+        <div>
+          <label for="">MidlleName</label>
+        </div>
+        <div>
+          <input type="text" name="middlename" />
+        </div>
+        <div>
+          <label for="">LasstName</label>
+        </div>
+        <div>
+          <input type="text" name="lastname" />
+        </div>
+        <div>
+          <label for="">Email</label>
+        </div>
+        <div>
+          <input type="email" name="email" required />
+        </div>
+        <div>
+          <label for="">Age</label>
+        </div>
+        <div>
+          <input type="number" name="age" min="18" max="25" />
+        </div>
+        <div>
+          <label for="">Gender</label>
+        </div>
+        <div>
+          Female <input type="radio" name="gender" value="female" /> Male
+          <input type="radio" name="gender" value="male" />
+        </div>
+        <div>
+          <label for="">Choose ur State</label>
+        </div>
+        <div>
+          <select name="state" id="">
+            <option value="kerala">Kerala</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="tn">Tamilnadu</option>
+            <option value="goa">Goa</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Password</label>
+        </div>
+        <div>
+          <input type="password" name="pwd" />
+        </div>
+        <div>
+          <label for="">Date of join</label>
+        </div>
+        <div>
+          <input type="date" name="doj" />
+        </div>
+        <div>
+          <label for="">Choose Your Browser</label>
+        </div>
+        <div>
+          <input list="browsers" name="browser" />
+          <datalist id="browsers">
+            <option value="Mozilla">
+            <option value="Chrome">
+            <option value="Saffari">
+            <option value="Edge">
+          </datalist>
+        </div>
+
+        <br />
+        <div>
+          <input type="submit" value="Signup" />
+        </div>
+      </fieldset>
+      <iframe
+        src="C:\Users\91974\Desktop\web\pages\example.htm"
+        width="500"
+        height="400"
+        frameborder="0"
+      ></iframe>
+      <iframe
+        width="500"
+        height="400"
+        src="https://www.youtube.com/embed/bWPMSSsVdPk"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </form>
+  </body>
+</html>
